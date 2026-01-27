@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "81cc75eb-d8a5-459c-b798-8be83d7ba9c0")
+	(paper "A4")
+	(lib_symbols)
+	(text "this is where i will be doing the buttons, uart, and display\n"
+		(exclude_from_sim no)
+		(at 100.33 19.812 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1df887c8-ad4e-42c9-9695-5157f190eeb7")
+	)
+)

@@ -596,7 +596,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "new-stm32u3-203f.kicad_sch",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -614,8 +614,28 @@
       "Root"
     ],
     [
-      "c8b42ce2-1f50-4545-b95d-0fdcdd205e90",
+      "34bad8bb-28b3-48fe-82c5-aa0a12365f06",
       "USB"
+    ],
+    [
+      "fbdd0d38-3709-4a96-99fb-af9d998b7f91",
+      "POWER"
+    ],
+    [
+      "2a65a93f-e384-446c-b635-357d5c94d301",
+      "MCU_IO"
+    ],
+    [
+      "407812d1-daed-40c5-804c-fa3fb5afc6ba",
+      "MCU_PWR"
+    ],
+    [
+      "49a9cbf9-29bc-4a77-9598-c8f6f4d868fe",
+      "SD_DAC"
+    ],
+    [
+      "a57027d5-fbd0-4343-9861-c673f36254bb",
+      "BASIC_IO"
     ]
   ],
   "text_variables": {}
