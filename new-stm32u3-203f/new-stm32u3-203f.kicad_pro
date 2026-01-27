@@ -612,6 +612,10 @@
     [
       "133609ce-1e1a-4c9a-bce3-37a0219dc965",
       "Root"
+    ],
+    [
+      "c8b42ce2-1f50-4545-b95d-0fdcdd205e90",
+      "USB"
     ]
   ],
   "text_variables": {}
