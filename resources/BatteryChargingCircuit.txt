@@ -1,0 +1,1 @@
+https://www.pcb-hero.com/blogs/lickys-column/design-a-battery-powered-stm32-board-with-usb
