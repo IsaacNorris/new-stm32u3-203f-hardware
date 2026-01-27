@@ -157,28 +157,6 @@
 			)
 		)
 	)
-	(global_label "BAT_-"
-		(shape input)
-		(at 213.36 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9277d826-eaea-4b8c-94b6-131a40b5d3f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.2114 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BTN_5"
 		(shape input)
 		(at 226.06 64.77 0)
@@ -192,28 +170,6 @@
 		(uuid "93c55c5d-536b-45c4-8af8-afac7e00630a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 234.7904 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT_+"
-		(shape input)
-		(at 213.36 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9a523ee3-ea89-4e59-8401-e638b625c7e8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.2114 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
