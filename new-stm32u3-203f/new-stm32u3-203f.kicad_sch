@@ -5,6 +5,16 @@
 	(uuid "133609ce-1e1a-4c9a-bce3-37a0219dc965")
 	(paper "A4")
 	(lib_symbols)
+	(text "ST Link Programmer\n"
+		(exclude_from_sim no)
+		(at 223.52 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bdb36c44-a3f0-44b2-918c-719b08773aa6")
+	)
 	(text_box "To be implemented"
 		(exclude_from_sim no)
 		(at 209.55 49.53 0)
@@ -24,248 +34,6 @@
 			(justify left top)
 		)
 		(uuid "725244f7-cbd0-42bb-91f6-a8f170ddc264")
-	)
-	(global_label "DAC_RST"
-		(shape input)
-		(at 213.36 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2cccca10-9b36-40c8-b4bf-31f2d3f4ff89")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.3885 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BTN_4"
-		(shape input)
-		(at 226.06 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "42cc6196-5b42-4c48-89ad-573a5ed63cdd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.7904 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_SDA"
-		(shape input)
-		(at 213.36 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54699bf6-a649-4c54-b1c9-d2721c30f951")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.9652 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BTN_6"
-		(shape input)
-		(at 226.06 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64ec8e36-d030-4739-8e8f-6aa1aeab7688")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.7904 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BTN_1"
-		(shape input)
-		(at 226.06 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6666b5b8-92a2-4ac4-9493-bf03dc0bbd84")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.7904 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART_TX"
-		(shape input)
-		(at 213.36 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "817a157f-b0be-4923-a7f8-933d674857a6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.1466 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BTN_5"
-		(shape input)
-		(at 226.06 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "93c55c5d-536b-45c4-8af8-afac7e00630a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.7904 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART_RX"
-		(shape input)
-		(at 213.36 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a10306a2-576e-4b67-b7f3-2f2a37a360b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.449 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BTN_2"
-		(shape input)
-		(at 226.06 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a91017a6-8e52-4340-8f04-95b6205c5c76")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.7904 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BTN_3"
-		(shape input)
-		(at 226.06 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cff6baad-2d66-485b-94cd-88318d8821b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.7904 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C1_SCL"
-		(shape input)
-		(at 213.36 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f1e6195e-4d18-42ba-a2b7-2b2333a6296c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.1142 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(sheet
 		(at 124.46 25.4)
@@ -394,8 +162,8 @@
 		)
 	)
 	(sheet
-		(at 124.46 64.77)
-		(size 35.56 31.75)
+		(at 74.93 64.77)
+		(size 38.1 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -410,7 +178,7 @@
 		)
 		(uuid "49a9cbf9-29bc-4a77-9598-c8f6f4d868fe")
 		(property "Sheetname" "SD_DAC"
-			(at 124.46 64.0584 0)
+			(at 74.93 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -419,7 +187,7 @@
 			)
 		)
 		(property "Sheetfile" "new-stm32u3-203f-SD_DAC.kicad_sch"
-			(at 124.46 97.1046 0)
+			(at 74.93 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -436,8 +204,8 @@
 		)
 	)
 	(sheet
-		(at 74.93 64.77)
-		(size 38.1 31.75)
+		(at 124.46 64.77)
+		(size 35.56 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -452,7 +220,7 @@
 		)
 		(uuid "a57027d5-fbd0-4343-9861-c673f36254bb")
 		(property "Sheetname" "BASIC_IO"
-			(at 74.93 64.0584 0)
+			(at 124.46 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -461,7 +229,7 @@
 			)
 		)
 		(property "Sheetfile" "new-stm32u3-203f-BASC_IO.kicad_sch"
-			(at 74.93 97.1046 0)
+			(at 124.46 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
