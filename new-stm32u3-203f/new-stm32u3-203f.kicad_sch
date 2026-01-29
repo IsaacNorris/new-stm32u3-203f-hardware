@@ -5,36 +5,6 @@
 	(uuid "133609ce-1e1a-4c9a-bce3-37a0219dc965")
 	(paper "A4")
 	(lib_symbols)
-	(text "ST Link Programmer\n"
-		(exclude_from_sim no)
-		(at 223.52 61.976 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bdb36c44-a3f0-44b2-918c-719b08773aa6")
-	)
-	(text_box "To be implemented"
-		(exclude_from_sim no)
-		(at 209.55 49.53 0)
-		(size 26.67 25.4)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "725244f7-cbd0-42bb-91f6-a8f170ddc264")
-	)
 	(sheet
 		(at 124.46 25.4)
 		(size 35.56 31.75)

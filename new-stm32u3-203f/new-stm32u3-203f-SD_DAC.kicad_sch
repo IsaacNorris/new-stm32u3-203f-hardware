@@ -3083,8 +3083,32 @@
 		(uuid "f4b6b36d-8766-4f8d-a758-3b52c76e0b96")
 	)
 	(no_connect
+		(at 198.12 68.58)
+		(uuid "089f9b51-7471-466f-a212-d5cd32ec10c5")
+	)
+	(no_connect
+		(at 198.12 76.2)
+		(uuid "1c045686-3c1f-44e6-b993-6959e6a2aa46")
+	)
+	(no_connect
+		(at 198.12 53.34)
+		(uuid "34a8bcdb-f404-4c70-b29d-8437c640d4fc")
+	)
+	(no_connect
+		(at 161.29 34.29)
+		(uuid "5a96cba7-4edc-49e8-8108-95089f355a82")
+	)
+	(no_connect
+		(at 198.12 78.74)
+		(uuid "73aed5e9-e88a-4fae-8ebc-cb1d7114144a")
+	)
+	(no_connect
 		(at 121.92 63.5)
 		(uuid "7b583f3a-6442-499a-bd66-c568df8c158f")
+	)
+	(no_connect
+		(at 198.12 71.12)
+		(uuid "86e6e0cc-f496-4b31-aa83-1c5f0f712d06")
 	)
 	(no_connect
 		(at 121.92 66.04)
@@ -3526,7 +3550,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 39.37) (xy 172.72 39.37)
+			(xy 173.99 39.37) (xy 176.53 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3546,7 +3570,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 31.75) (xy 172.72 31.75)
+			(xy 173.99 31.75) (xy 176.53 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3626,7 +3650,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 39.37) (xy 162.56 39.37)
+			(xy 161.29 39.37) (xy 166.37 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3656,7 +3680,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 31.75) (xy 162.56 31.75)
+			(xy 161.29 31.75) (xy 166.37 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3976,7 +4000,7 @@
 	)
 	(global_label "HP_RIGHT"
 		(shape input)
-		(at 172.72 31.75 0)
+		(at 176.53 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3986,7 +4010,7 @@
 		)
 		(uuid "4e5d83d8-dbac-4b5b-9cc5-b5d8d5f5b037")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.7162 31.75 0)
+			(at 188.5262 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +4242,7 @@
 	)
 	(global_label "HP_LEFT"
 		(shape input)
-		(at 172.72 39.37 0)
+		(at 176.53 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4228,7 +4252,7 @@
 		)
 		(uuid "cdb69a0e-77f9-42c3-b358-dec511cbe99e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.5066 39.37 0)
+			(at 187.3166 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4418,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 39.37 90)
+		(at 170.18 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4402,7 +4426,7 @@
 		(dnp no)
 		(uuid "3039e9d1-8f98-4738-982c-a12ad5535923")
 		(property "Reference" "C13"
-			(at 163.322 38.354 90)
+			(at 167.132 38.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,7 +4434,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 169.164 38.354 90)
+			(at 172.974 38.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,7 +4442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 38.4048 0)
+			(at 173.99 38.4048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4451,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 39.37 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4460,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 166.37 39.37 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,7 +5363,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 31.75 90)
+		(at 170.18 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5347,7 +5371,7 @@
 		(dnp no)
 		(uuid "d20c9bfa-2bd9-47bc-9682-9a15986137d2")
 		(property "Reference" "C12"
-			(at 163.322 30.734 90)
+			(at 167.132 30.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5379,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 169.418 30.734 90)
+			(at 173.228 30.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +5387,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 30.7848 0)
+			(at 173.99 30.7848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5396,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 31.75 0)
+			(at 170.18 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,7 +5405,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 166.37 31.75 0)
+			(at 170.18 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
