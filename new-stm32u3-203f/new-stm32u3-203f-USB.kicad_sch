@@ -4944,7 +4944,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 75.438 90)
 			(effects
 				(font
@@ -5011,7 +5011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT23-6L_STM"
+		(property "Footprint" "footprints_usbLC6:SOT23-6L_STM"
 			(at 86.36 127 0)
 			(effects
 				(font
@@ -5158,7 +5158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN1610_STM"
+		(property "Footprint" "footprints_esda25:QFN1610_STM"
 			(at 170.18 87.63 0)
 			(effects
 				(font
@@ -5227,7 +5227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOD-523_STM"
+		(property "Footprint" "footprints_BAT54:SOD-523_STM"
 			(at 240.03 68.58 0)
 			(effects
 				(font
@@ -5298,7 +5298,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 233.9848 59.69 0)
 			(effects
 				(font
@@ -5366,7 +5366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "POWERFLAT-3p3X3p3_STM"
+		(property "Footprint" "footprints_stl11n3:POWERFLAT-3p3X3p3_STM"
 			(at 69.85 54.61 0)
 			(effects
 				(font
@@ -5453,7 +5453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 148.59 70.358 90)
 			(effects
 				(font
@@ -5520,7 +5520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "12401826_AMP"
+		(property "Footprint" "footprints_USB_CON:12401826_AMP"
 			(at 170.18 107.95 0)
 			(effects
 				(font
@@ -5655,7 +5655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 107.95 98.0948 0)
 			(effects
 				(font
@@ -5853,7 +5853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN12_TCPP01-M12_STM"
+		(property "Footprint" "Package_DFN_QFN:QFN-12-1EP_3x3mm_P0.5mm_EP1.45x1.45mm"
 			(at 166.37 55.88 0)
 			(effects
 				(font

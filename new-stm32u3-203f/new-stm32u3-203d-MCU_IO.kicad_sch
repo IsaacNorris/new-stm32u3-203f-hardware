@@ -1773,6 +1773,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0)
@@ -2213,6 +2363,12 @@
 		)
 	)
 	(junction
+		(at 162.56 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "048d31d8-01aa-44c1-ba6e-531b0ff74695")
+	)
+	(junction
 		(at 203.2 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2370,6 +2526,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 99.06) (xy 171.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c03eec4-c43e-4550-844c-4cf0b5870390")
+	)
+	(wire
+		(pts
 			(xy 157.48 60.96) (xy 160.02 60.96)
 		)
 		(stroke
@@ -2380,7 +2546,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 92.71) (xy 171.45 91.44)
+			(xy 162.56 111.76) (xy 162.56 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2457,6 +2623,16 @@
 			(type default)
 		)
 		(uuid "7203e41d-f216-44bc-a51b-e99499e6f02b")
+	)
+	(wire
+		(pts
+			(xy 171.45 109.22) (xy 171.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79390e66-1f22-42dc-9b02-ae3aec82f674")
 	)
 	(wire
 		(pts
@@ -2670,16 +2846,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 91.44) (xy 163.83 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc89e432-dedb-4863-ae8f-8d9e33a996a0")
-	)
-	(wire
-		(pts
 			(xy 93.98 38.1) (xy 96.52 38.1)
 		)
 		(stroke
@@ -2707,6 +2873,36 @@
 			(type default)
 		)
 		(uuid "ef76d89a-a7a5-47d0-9948-20f697b02897")
+	)
+	(wire
+		(pts
+			(xy 162.56 91.44) (xy 157.48 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa718c7-7e50-48f7-904b-de15178bf6c8")
+	)
+	(wire
+		(pts
+			(xy 162.56 91.44) (xy 162.56 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc473de-ecc9-4266-b666-dce8cfa8f6c1")
+	)
+	(wire
+		(pts
+			(xy 171.45 91.44) (xy 162.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05b2e01-7f2a-4c58-b7b0-cde10e48915c")
 	)
 	(wire
 		(pts
@@ -3379,7 +3575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 203.2 68.58 0)
 			(effects
 				(font
@@ -3422,6 +3618,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 171.45 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a38a405-6918-48de-8330-3eabc4c30a60")
+		(property "Reference" "#PWR069"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 171.45 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92290312-f603-4822-a084-82a4ff41a8e3")
+		)
+		(instances
+			(project "new-stm32u3-203f"
+				(path "/133609ce-1e1a-4c9a-bce3-37a0219dc965/2a65a93f-e384-446c-b635-357d5c94d301"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 180.34 86.36 0)
 		(mirror x)
@@ -3447,7 +3708,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints_SPDT_slide:CL-SB-12B-01_NDC"
 			(at 180.34 86.36 0)
 			(effects
 				(font
@@ -3560,7 +3821,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 171.45 92.71 0)
+		(at 162.56 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3568,7 +3829,7 @@
 		(dnp no)
 		(uuid "5b57a220-10e1-402f-b515-14632be9f7db")
 		(property "Reference" "#PWR010"
-			(at 171.45 99.06 0)
+			(at 162.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3838,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 171.45 96.266 0)
+			(at 162.56 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +3846,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 92.71 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,7 +3855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 92.71 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +3864,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 171.45 92.71 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3886,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 167.64 91.44 90)
+		(at 162.56 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3633,7 +3894,7 @@
 		(dnp no)
 		(uuid "6190e198-47f7-499c-908c-ca4f9bb499ab")
 		(property "Reference" "C9"
-			(at 165.735 89.789 90)
+			(at 160.909 108.585 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +3903,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 173.863 89.789 90)
+			(at 160.909 100.457 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,8 +3911,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 171.45 90.4748 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 161.5948 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,7 +3921,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 91.44 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3930,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 167.64 91.44 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +4175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 215.9 62.5348 0)
 			(effects
 				(font
@@ -3981,7 +4242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP64_STM"
+		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
 			(at 96.52 38.1 0)
 			(effects
 				(font
@@ -4236,7 +4497,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 215.9 72.6948 0)
 			(effects
 				(font
@@ -4303,7 +4564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 165.1 88.138 90)
 			(effects
 				(font
@@ -4340,6 +4601,76 @@
 			(project "new-stm32u3-203f"
 				(path "/133609ce-1e1a-4c9a-bce3-37a0219dc965/2a65a93f-e384-446c-b635-357d5c94d301"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 171.45 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8577d3e-31c5-4148-a6d9-7ddc6cb4fb62")
+		(property "Reference" "SW9"
+			(at 172.72 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_RST"
+			(at 172.72 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints_RST_BTN:SON4_PTS526 SM15 SMTR2 LFS_CNK"
+			(at 166.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "829d5d00-6941-4328-8f1c-94cf202ffb8f")
+		)
+		(pin "1"
+			(uuid "77593054-d954-4cdd-88f9-71b43f47116d")
+		)
+		(instances
+			(project ""
+				(path "/133609ce-1e1a-4c9a-bce3-37a0219dc965/2a65a93f-e384-446c-b635-357d5c94d301"
+					(reference "SW9")
 					(unit 1)
 				)
 			)
