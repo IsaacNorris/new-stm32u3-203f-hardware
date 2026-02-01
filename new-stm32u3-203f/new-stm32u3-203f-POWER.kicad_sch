@@ -3120,16 +3120,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 33.02) (xy 62.23 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f8edf77-e9fb-46af-8f8b-dea58b6b04a6")
-	)
-	(wire
-		(pts
 			(xy 163.83 71.12) (xy 163.83 72.39)
 		)
 		(stroke
@@ -3270,7 +3260,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 33.02) (xy 52.07 33.02)
+			(xy 49.53 33.02) (xy 62.23 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6694,73 +6684,6 @@
 			(project "new-stm32u3-203f"
 				(path "/133609ce-1e1a-4c9a-bce3-37a0219dc965/fbdd0d38-3709-4a96-99fb-af9d998b7f91"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 55.88 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0a256c4-f62a-4d25-9489-30f1ca5bed68")
-		(property "Reference" "R5"
-			(at 55.88 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 55.88 35.306 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 55.88 34.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9331367b-9c87-4826-826f-0ab884551daf")
-		)
-		(pin "2"
-			(uuid "100bd602-d191-4724-a38f-c02413152597")
-		)
-		(instances
-			(project "new-stm32u3-203f"
-				(path "/133609ce-1e1a-4c9a-bce3-37a0219dc965/fbdd0d38-3709-4a96-99fb-af9d998b7f91"
-					(reference "R5")
 					(unit 1)
 				)
 			)
