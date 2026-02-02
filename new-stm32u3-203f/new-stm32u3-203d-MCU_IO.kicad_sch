@@ -3708,7 +3708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints_SPDT_slide:CL-SB-12B-01_NDC"
+		(property "Footprint" "switch:SW_CJS-1200TA"
 			(at 180.34 86.36 0)
 			(effects
 				(font

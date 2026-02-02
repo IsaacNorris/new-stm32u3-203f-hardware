@@ -1638,130 +1638,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2223,12 +2099,6 @@
 		(uuid "b5ab7fcb-c3a6-4e97-99ca-5d9397f18210")
 	)
 	(junction
-		(at 88.9 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb3dffb4-7928-4ae2-9534-c36a3adf1f9a")
-	)
-	(junction
 		(at 148.59 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2289,16 +2159,6 @@
 			(type default)
 		)
 		(uuid "04835173-f9ec-4a30-abd9-767ffbab4bea")
-	)
-	(wire
-		(pts
-			(xy 83.82 88.9) (xy 88.9 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04f4f658-8ace-461a-88d3-bdf291ce25cd")
 	)
 	(wire
 		(pts
@@ -2552,7 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 88.9 91.44)
+			(xy 88.9 82.55) (xy 88.9 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2932,26 +2792,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 82.55) (xy 88.9 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b08a7230-f332-46e2-a7c0-fca65f54051d")
-	)
-	(wire
-		(pts
-			(xy 123.19 58.42) (xy 125.73 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b188bb94-9621-4220-93e0-98f763c24506")
-	)
-	(wire
-		(pts
 			(xy 144.78 96.52) (xy 152.4 96.52)
 		)
 		(stroke
@@ -2999,16 +2839,6 @@
 			(type default)
 		)
 		(uuid "c1aa06e2-73d7-4de6-9ac8-906e0bc0b455")
-	)
-	(wire
-		(pts
-			(xy 72.39 88.9) (xy 76.2 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4bbbd55-ace6-4748-ae1b-74450879aa32")
 	)
 	(wire
 		(pts
@@ -3112,7 +2942,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 58.42) (xy 115.57 58.42)
+			(xy 113.03 58.42) (xy 125.73 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3299,28 +3129,6 @@
 			(type default)
 		)
 		(uuid "f8ef182b-8b64-4438-a223-83d5873d763e")
-	)
-	(global_label "V11"
-		(shape input)
-		(at 72.39 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "03f5859f-5a8f-4f79-886d-7077b4103cba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.8972 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "VDD_SMPS"
 		(shape input)
@@ -4198,73 +4006,6 @@
 			(project "new-stm32u3-203f"
 				(path "/133609ce-1e1a-4c9a-bce3-37a0219dc965/407812d1-daed-40c5-804c-fa3fb5afc6ba"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 80.01 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4db8d35e-8fa0-457e-814c-9b26f7fdab72")
-		(property "Reference" "C32"
-			(at 76.708 87.376 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 84.328 87.376 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 83.82 87.9348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 80.01 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f1f34552-289e-4b00-97f1-1152c5cfcddc")
-		)
-		(pin "1"
-			(uuid "c252fc83-a122-4f1d-857a-a7aa82b341fb")
-		)
-		(instances
-			(project "new-stm32u3-203f"
-				(path "/133609ce-1e1a-4c9a-bce3-37a0219dc965/407812d1-daed-40c5-804c-fa3fb5afc6ba"
-					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -5858,73 +5599,6 @@
 			(project "new-stm32u3-203f"
 				(path "/133609ce-1e1a-4c9a-bce3-37a0219dc965/407812d1-daed-40c5-804c-fa3fb5afc6ba"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee50a0f5-86eb-4f47-aa00-5d1f1fbafdc7")
-		(property "Reference" "R2"
-			(at 115.316 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 123.444 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 119.38 60.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2c3222e-1d20-4a10-b0b1-e718ab859c1c")
-		)
-		(pin "2"
-			(uuid "346088ad-323a-4740-8e79-566b272a1ebc")
-		)
-		(instances
-			(project "new-stm32u3-203f"
-				(path "/133609ce-1e1a-4c9a-bce3-37a0219dc965/407812d1-daed-40c5-804c-fa3fb5afc6ba"
-					(reference "R2")
 					(unit 1)
 				)
 			)

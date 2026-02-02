@@ -9,4 +9,5 @@
   (lib (name "footprints_USB_CON")(type "KiCad")(uri "C:/Users/Isaac Norris/Downloads/12401826E412A/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "footprints_SPDT_slide")(type "KiCad")(uri "C:/Users/Isaac Norris/Downloads/CL_SB_12B_01T/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "footprints_RST_BTN")(type "KiCad")(uri "C:/Users/Isaac Norris/Downloads/PTS526_SM15_SMTR2_LFS/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "switch")(type "KiCad")(uri "C:/Users/Isaac Norris/Downloads/CJS-1200TA/switch.pretty")(options "")(descr ""))
 )
