@@ -3460,6 +3460,28 @@
 			)
 		)
 	)
+	(global_label "BATT_MON"
+		(shape input)
+		(at 93.98 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cab6a9b2-ea75-4ffb-88ac-5e58d9a49722")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.621 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_A"
 		(shape input)
 		(at 160.02 40.64 0)
