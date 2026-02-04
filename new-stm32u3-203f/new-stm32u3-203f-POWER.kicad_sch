@@ -4026,7 +4026,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 104.14 40.64 180)
+		(at 104.14 40.64 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4034,7 +4035,7 @@
 		(dnp no)
 		(uuid "074a8805-b24c-47ae-9821-2f3ae89bd4c8")
 		(property "Reference" "C26"
-			(at 104.902 38.608 0)
+			(at 103.378 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +4044,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 104.648 42.672 0)
+			(at 103.632 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +4053,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 103.1748 36.83 0)
+			(at 105.1052 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
