@@ -4889,7 +4889,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 219.456 58.674 0)
 			(effects
 				(font
@@ -5301,7 +5301,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 218.948 86.106 0)
 			(effects
 				(font
