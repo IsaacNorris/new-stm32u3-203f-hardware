@@ -2012,6 +2012,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 154.94) (xy 186.69 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4f14f2-dd26-452a-8f53-dc42e7b4c204")
+	)
+	(wire
+		(pts
 			(xy 236.22 139.7) (xy 240.03 139.7)
 		)
 		(stroke
@@ -2412,6 +2422,28 @@
 			)
 		)
 	)
+	(global_label "USB_GND"
+		(shape input)
+		(at 186.69 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ad3e54c-de3e-44d2-8de4-d3cd4090b2c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.3233 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_VBUS"
 		(shape input)
 		(at 167.64 115.57 180)
@@ -2774,6 +2806,72 @@
 			(project "new-stm32u3-203f"
 				(path "/133609ce-1e1a-4c9a-bce3-37a0219dc965/34bad8bb-28b3-48fe-82c5-aa0a12365f06"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 182.88 154.94 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "520f15d2-73d4-478b-b785-a1244a090faa")
+		(property "Reference" "#PWR066"
+			(at 176.53 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 175.768 154.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 182.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de0d913b-943a-4d15-ba15-5ec2a7b45d97")
+		)
+		(instances
+			(project "new-stm32u3-203f"
+				(path "/133609ce-1e1a-4c9a-bce3-37a0219dc965/34bad8bb-28b3-48fe-82c5-aa0a12365f06"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
