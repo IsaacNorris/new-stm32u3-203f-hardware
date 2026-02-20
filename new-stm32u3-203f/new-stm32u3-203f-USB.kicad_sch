@@ -1842,16 +1842,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 147.32) (xy 190.5 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a22e372-4240-4afe-87be-f04648f454d8")
-	)
-	(wire
-		(pts
 			(xy 232.41 128.27) (xy 232.41 130.81)
 		)
 		(stroke
@@ -1949,16 +1939,6 @@
 			(type default)
 		)
 		(uuid "53342674-d801-477d-b071-3436bc37f43b")
-	)
-	(wire
-		(pts
-			(xy 191.77 147.32) (xy 190.5 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "560e86c1-a150-4faf-85a4-f4d55ffeee2d")
 	)
 	(wire
 		(pts
@@ -2846,71 +2826,6 @@
 			(project "new-stm32u3-203f"
 				(path "/133609ce-1e1a-4c9a-bce3-37a0219dc965/34bad8bb-28b3-48fe-82c5-aa0a12365f06"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 191.77 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23d2f4b9-ee27-4ad0-8993-eade6ad70d5c")
-		(property "Reference" "#PWR070"
-			(at 198.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 198.882 147.066 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f743139-171c-40c1-969d-c8d9f85adc18")
-		)
-		(instances
-			(project "new-stm32u3-203f"
-				(path "/133609ce-1e1a-4c9a-bce3-37a0219dc965/34bad8bb-28b3-48fe-82c5-aa0a12365f06"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
