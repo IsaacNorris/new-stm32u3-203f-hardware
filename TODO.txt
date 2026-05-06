@@ -1,0 +1,2 @@
+add in pullups to the i2c logic.
+add in voltage changers fro 12c logic between 1v8 and 3v3
