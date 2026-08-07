@@ -1,2 +1,8 @@
 add in pullups to the i2c logic.
-add in voltage changers fro 12c logic between 1v8 and 3v3
+remove all 1v8 logic and parts. 
+
+
+new stm32:
+https://www.digikey.com/en/products/detail/stmicroelectronics/STM32WB55RGV6/9919553
+new dac:
+PCM5102
