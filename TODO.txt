@@ -6,3 +6,4 @@ new stm32:
 https://www.digikey.com/en/products/detail/stmicroelectronics/STM32WB55RGV6/9919553
 new dac:
 PCM5102
+TAD5142
